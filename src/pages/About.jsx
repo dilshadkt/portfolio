@@ -6,9 +6,8 @@ const About = () => {
   return (
     <section className="max-container">
       <h1 className="head-text">
-        Hello, I'm{" "}
+        Hello, I'm
         <span className="blue-gradient_text font-semibold drop-shadow">
-          {" "}
           Dilshad
         </span>{" "}
         👋
@@ -22,7 +21,7 @@ const About = () => {
       <div className="py-10 flex flex-col">
         <h3 className="subhead-text">My Skills</h3>
 
-        <div className="mt-16 flex flex-wrap gap-12">
+        <div className="mt-16 flex flex-wrap gap-11">
           {skills.map((skill) => (
             <div className="block-container w-20 h-20" key={skill.name}>
               <div className="btn-back rounded-xl" />
