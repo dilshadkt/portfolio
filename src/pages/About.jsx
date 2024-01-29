@@ -7,15 +7,17 @@ const About = () => {
     <section className="max-container">
       <h1 className="head-text">
         Hello, I'm
-        <span className="blue-gradient_text font-semibold drop-shadow">
+        <span className="blue-gradient_text font-semibold drop-shadow pl-2">
           Dilshad
         </span>{" "}
         👋
       </h1>
       <div className="mt-5 flex flex-col gap-3 text-slate-500">
         <p>
-          Software Engineer based in Croatia, specializing in technical
-          education through hands-on learning and building applications.
+          Self taught MERN stack developer based in Malappuram, Kerala, curious
+          to learn more about developing scalable distributed systems, loves
+          problem solving and cares about writing readable as well as
+          maintainable code
         </p>
       </div>
       <div className="py-10 flex flex-col">

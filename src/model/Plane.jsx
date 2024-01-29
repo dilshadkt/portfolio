@@ -1,7 +1,10 @@
 import React, { useEffect, useRef } from "react";
 import planeScene from "../assets/3d/plane.glb";
 import { useGLTF, useAnimations } from "@react-three/drei";
+import plansound from "../assets/plane.mp3";
 const Plane = ({ isRotating, ...props }) => {
+  const audioRef = useRef(new Audio(plansound));
+  audioRef.current.volume = 0.4;
   const ref = useRef();
   // Load the 3D model and its animations
   const { scene, animations } = useGLTF(planeScene);
@@ -13,8 +16,10 @@ const Plane = ({ isRotating, ...props }) => {
   useEffect(() => {
     if (isRotating) {
       actions["Take 001"].play();
+      audioRef.current.play();
     } else {
       actions["Take 001"].stop();
+      audioRef.current.pause();
     }
   }, [actions, isRotating]);
   return (
