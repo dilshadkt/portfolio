@@ -27,6 +27,9 @@ import contact from "./contact.svg";
 import soundon from "./soundon.png";
 import soundoff from "./soundoff.png";
 import postman from "./postman.svg";
+import bridgeon from "./bridgeon.jpeg";
+import kodler from "./kodler.jpeg";
+import zigzag from "./logo.png";
 export {
   css,
   express,
@@ -57,4 +60,7 @@ export {
   contact,
   soundon,
   soundoff,
+  bridgeon,
+  kodler,
+  zigzag,
 };

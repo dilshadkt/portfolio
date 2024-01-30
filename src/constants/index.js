@@ -3,7 +3,6 @@ import {
   car,
   contact,
   css,
-  
   express,
   git,
   github,
@@ -19,11 +18,13 @@ import {
   react,
   redux,
   sass,
-  
   tailwindcss,
   threads,
   typescript,
   postman,
+  bridgeon,
+  kodler,
+  zigzag,
 } from "../assets/icons";
 
 export const skills = [
@@ -116,22 +117,9 @@ export const skills = [
 
 export const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#accbe1",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
+    title: "MERN Stack Developer",
     company_name: "Tesla",
-    icon: tesla,
+    icon: kodler,
     iconBg: "#fbc3bc",
     date: "Jan 2021 - Feb 2022",
     points: [
@@ -142,11 +130,11 @@ export const experiences = [
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#b7e4c7",
-    date: "Jan 2022 - Jan 2023",
+    title: "Web  Developer",
+    company_name: "Zigzag Digital Marketing",
+    icon: zigzag,
+    iconBg: "#accbe1",
+    date: "March 2020 - April 2021",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -155,11 +143,11 @@ export const experiences = [
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#a2d2ff",
-    date: "Jan 2023 - Present",
+    title: "intern",
+    company_name: "Shopify",
+    icon: bridgeon,
+    iconBg: "#b7e4c7",
+    date: "Jan 2022 - Jan 2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -201,7 +189,7 @@ export const projects = [
     theme: "btn-back-green",
     name: "Zigzag - freelance",
     description:
-      'Develop a sleek full-stack application for a Digital Marketing Agency to effortlessly showcase their work and maintain a vibrant blog.',
+      "Develop a sleek full-stack application for a Digital Marketing Agency to effortlessly showcase their work and maintain a vibrant blog.",
     link: "https://zigzagdigitalsolutions.com/",
   },
   {
@@ -212,5 +200,4 @@ export const projects = [
       "Craft a dynamic full-stack e-commerce application focused on footwear. Users can easily browse and purchase shoes, Admins can effortlessly manage products for streamlined operations,",
     link: "https://plashoeclub.netlify.app/",
   },
- 
 ];

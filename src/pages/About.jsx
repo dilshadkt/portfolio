@@ -1,7 +1,7 @@
 import React from "react";
 import { experiences, skills } from "../constants";
 import CTA from "../components/CTA";
-import "react-vertical-timeline-component/style.min.css";
+
 const About = () => {
   return (
     <section className="max-container">
@@ -45,6 +45,29 @@ const About = () => {
               teaming up with smart people. Here's the rundown:
             </p>
           </div>
+        </div>
+        <div>
+          {experiences.map((exp) => (
+            <div
+              className="block-container flex items-center w-20  h-20"
+              key={exp.title}
+            >
+              <div className="btn-back rounded-xl" />
+              <div className="btn-front rounded-xl flex justify-center items-center">
+                <img
+                  src={exp.icon}
+                  alt={exp.title}
+                  className="w-1/2 h-1/2 object-contain"
+                />
+              </div>
+              <p
+                className="ml-[120px] whitespace-nowrap p-3 shadow-lg blue-gradient_text font-medium
+            "
+              >
+                {exp.title}
+              </p>
+            </div>
+          ))}
         </div>
         <CTA />
       </div>
