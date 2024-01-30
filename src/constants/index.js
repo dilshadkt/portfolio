@@ -3,7 +3,7 @@ import {
   car,
   contact,
   css,
-  estate,
+  
   express,
   git,
   github,
@@ -19,8 +19,7 @@ import {
   react,
   redux,
   sass,
-  snapgram,
-  summiz,
+  
   tailwindcss,
   threads,
   typescript,
@@ -194,7 +193,7 @@ export const projects = [
     theme: "btn-back-red",
     name: "Airbnb - clone",
     description:
-      "Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.",
+      "Build a full-stack application, an Airbnb clone, facilitating seamless property transactions. Users can effortlessly book accommodations or rent out their properties.",
     link: "https://airbnb-clone-six-rust.vercel.app/",
   },
   {
@@ -202,7 +201,7 @@ export const projects = [
     theme: "btn-back-green",
     name: "Zigzag - freelance",
     description:
-      'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
+      'Develop a sleek full-stack application for a Digital Marketing Agency to effortlessly showcase their work and maintain a vibrant blog.',
     link: "https://zigzagdigitalsolutions.com/",
   },
   {
@@ -210,7 +209,7 @@ export const projects = [
     theme: "btn-back-blue",
     name: "Plashoe",
     description:
-      "Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.",
+      "Craft a dynamic full-stack e-commerce application focused on footwear. Users can easily browse and purchase shoes, Admins can effortlessly manage products for streamlined operations,",
     link: "https://plashoeclub.netlify.app/",
   },
  
