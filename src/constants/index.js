@@ -25,6 +25,10 @@ import {
   bridgeon,
   kodler,
   zigzag,
+  star,
+  burger,
+  ec2,
+  s3,
 } from "../assets/icons";
 
 export const skills = [
@@ -113,12 +117,22 @@ export const skills = [
     name: "Postman",
     type: "API",
   },
+  {
+    imageUrl: ec2,
+    name: "Ec2",
+    type: "virtual ",
+  },
+  {
+    imageUrl: s3,
+    name: "S3",
+    type: "Cloud storage ",
+  },
 ];
 
 export const experiences = [
   {
     title: "MERN Stack Developer",
-    company_name: "Tesla",
+    company_name: "Kodlar innovation",
     icon: kodler,
     iconBg: "#fbc3bc",
     date: "Jan 2021 - Feb 2022",
@@ -177,6 +191,14 @@ export const socialLinks = [
 
 export const projects = [
   {
+    iconUrl: star,
+    theme: "btn-back-yellow",
+    name: "Pic AI",
+    description:
+      "Developed a web application for image restoration, autofill, object and background removal, and object recoloring using Cloudinary AI.",
+    link: "https://ai-saas-eight-coral.vercel.app/",
+  },
+  {
     iconUrl: pricewise,
     theme: "btn-back-red",
     name: "Airbnb - clone",
@@ -199,5 +221,13 @@ export const projects = [
     description:
       "Craft a dynamic full-stack e-commerce application focused on footwear. Users can easily browse and purchase shoes, Admins can effortlessly manage products for streamlined operations,",
     link: "https://plashoeclub.netlify.app/",
+  },
+  {
+    iconUrl: burger,
+    theme: "btn-back-black",
+    name: "YOKON",
+    description:
+      "Developed a responsive landing page for a food product with a seamless UI and reusable components.",
+    link: "https://yokon.vercel.app/",
   },
 ];

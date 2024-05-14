@@ -60,12 +60,12 @@ const About = () => {
                   className="w-1/2 h-1/2 object-contain"
                 />
               </div>
-              <p
+              <div
                 className="ml-[120px] whitespace-nowrap p-3 shadow-lg blue-gradient_text font-medium
             "
               >
                 {exp.title}
-              </p>
+              </div>
             </div>
           ))}
         </div>

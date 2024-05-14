@@ -30,6 +30,10 @@ import postman from "./postman.svg";
 import bridgeon from "./bridgeon.jpeg";
 import kodler from "./kodler.jpeg";
 import zigzag from "./logo.png";
+import star from "./star.svg";
+import burger from "./burger.svg";
+import ec2 from "./ec2.svg";
+import s3 from "./s3.svg";
 export {
   css,
   express,
@@ -63,4 +67,8 @@ export {
   bridgeon,
   kodler,
   zigzag,
+  star,
+  burger,
+  ec2,
+  s3,
 };
