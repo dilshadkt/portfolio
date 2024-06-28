@@ -254,7 +254,7 @@ export const projects = [
   {
     iconUrl: realestate,
     theme: "btn-back-blue",
-    name: "Vidyanagar",
+    name: "Real Estate",
     description:
       "Developed a dynamic full-stack application for a managing real estate property.",
     link: "https://real-estate-two-rust.vercel.app/",
