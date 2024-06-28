@@ -1,15 +1,29 @@
-import hero from './hero.jpg'
-import meta from './meta.png'
-import shopify from './shopify.png'
-import starbucks from './starbucks.png'
-import tesla from './tesla.png'
-import logo from './logo.svg'
+import airbn from "./airbnb.png";
+import camp from "./camp.png";
+import picai from "./picai.png";
+import playshoe from "./playshoe.png";
+import yokon from "./yokon.png";
+import zig from "./zigzag.png";
+import vidyanagar from "./vidyanagar.png";
+import omnify from "./omnify.png";
+import progbiz from "./progbiz.png";
+import origa from "./origa.png";
+import realestate from "./real-estate.png";
+import slider from "./slider.png";
+import paralax from "./paralax.png";
 
 export {
-    hero,
-    meta,
-    shopify,
-    starbucks,
-    tesla,
-    logo
-}
+  airbn,
+  camp,
+  picai,
+  playshoe,
+  yokon,
+  zig,
+  vidyanagar,
+  omnify,
+  progbiz,
+  origa,
+  realestate,
+  slider,
+  paralax,
+};

@@ -34,6 +34,9 @@ import star from "./star.svg";
 import burger from "./burger.svg";
 import ec2 from "./ec2.svg";
 import s3 from "./s3.svg";
+import prisma from "./prisma.svg";
+import mongoose from "./mongoose.svg";
+import docker from "./docker.svg";
 export {
   css,
   express,
@@ -42,6 +45,7 @@ export {
   html,
   javascript,
   mongodb,
+  mongoose,
   motion,
   mui,
   nextjs,
@@ -67,8 +71,10 @@ export {
   bridgeon,
   kodler,
   zigzag,
+  prisma,
   star,
   burger,
   ec2,
   s3,
+  docker,
 };

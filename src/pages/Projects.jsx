@@ -25,13 +25,13 @@ const Projects = () => {
       <div className="flex flex-wrap my-20 gap-16">
         {projects.map((project) => (
           <div className="lg:w-[400px] w-full" key={project.name}>
-            <div className="block-container w-12 h-12">
+            <div className="block-container w-[180px] h-[130px]">
               <div className={`btn-back rounded-xl ${project.theme}`} />
               <div className="btn-front rounded-xl flex justify-center items-center">
                 <img
                   src={project.iconUrl}
                   alt="threads"
-                  className="w-1/2 h-1/2 object-contain"
+                  className=" hover:scale-110 transition-all duration-300 object-contain"
                 />
               </div>
             </div>

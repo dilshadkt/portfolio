@@ -1,4 +1,18 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+import {
+  airbn,
+  picai,
+  zig,
+  yokon,
+  playshoe,
+  camp,
+  vidyanagar,
+  omnify,
+  progbiz,
+  origa,
+  realestate,
+  slider,
+  paralax,
+} from "../assets/images";
 import {
   car,
   contact,
@@ -29,7 +43,11 @@ import {
   burger,
   ec2,
   s3,
+  prisma,
+  mongoose,
+  docker,
 } from "../assets/icons";
+import airbnb from "../assets/images/airbnb.png";
 
 export const skills = [
   {
@@ -65,6 +83,17 @@ export const skills = [
   {
     imageUrl: mongodb,
     name: "MongoDB",
+    type: "Database",
+  },
+
+  {
+    imageUrl: prisma,
+    name: "Prisma",
+    type: "Database",
+  },
+  {
+    imageUrl: docker,
+    name: "Docker",
     type: "Database",
   },
   {
@@ -191,15 +220,15 @@ export const socialLinks = [
 
 export const projects = [
   {
-    iconUrl: star,
-    theme: "btn-back-yellow",
+    iconUrl: picai,
+    theme: "btn-back-blue",
     name: "Pic AI",
     description:
       "Developed a web application for image restoration, autofill, object and background removal, and object recoloring using Cloudinary AI.",
     link: "https://ai-saas-eight-coral.vercel.app/",
   },
   {
-    iconUrl: pricewise,
+    iconUrl: airbn,
     theme: "btn-back-red",
     name: "Airbnb - clone",
     description:
@@ -207,15 +236,31 @@ export const projects = [
     link: "https://airbnb-clone-six-rust.vercel.app/",
   },
   {
-    iconUrl: threads,
-    theme: "btn-back-green",
+    iconUrl: zig,
+    theme: "btn-back-red",
     name: "Zigzag - freelance",
     description:
       "Develop a sleek full-stack application for a Digital Marketing Agency to effortlessly showcase their work and maintain a vibrant blog.",
     link: "https://zigzagdigitalsolutions.com/",
   },
   {
-    iconUrl: car,
+    iconUrl: vidyanagar,
+    theme: "btn-back-blue",
+    name: "Vidyanagar",
+    description:
+      "Developed a dynamic full-stack application for a school to showcase their work and maintain a vibrant blog, complete with an admin dashboard.",
+    link: "https://vidyanagar.vercel.app/",
+  },
+  {
+    iconUrl: realestate,
+    theme: "btn-back-blue",
+    name: "Vidyanagar",
+    description:
+      "Developed a dynamic full-stack application for a managing real estate property.",
+    link: "https://real-estate-two-rust.vercel.app/",
+  },
+  {
+    iconUrl: playshoe,
     theme: "btn-back-blue",
     name: "Plashoe",
     description:
@@ -223,11 +268,58 @@ export const projects = [
     link: "https://plashoeclub.netlify.app/",
   },
   {
-    iconUrl: burger,
+    iconUrl: omnify,
+    theme: "btn-back-blue",
+    name: "Omnify",
+    description:
+      "Develop a user-friendly dashboard featuring seamless filter options ,",
+    link: "https://omnify-ten.vercel.app/",
+  },
+  {
+    iconUrl: progbiz,
+    theme: "btn-back-blue",
+    name: "Progbiz",
+    description:
+      "User-friendly dashboard featuring seamless filter options and responsive ,",
+    link: "https://progbiz.vercel.app/",
+  },
+  {
+    iconUrl: origa,
+    theme: "btn-back-black",
+    name: "Origa",
+    description:
+      "User-friendly dashboard featuring seamless filter options and responsive ,",
+    link: "https://origa.vercel.app/",
+  },
+
+  {
+    iconUrl: camp,
+    theme: "btn-back-green",
+    name: "CAMP AREA",
+    description:
+      "Created a dynamic and user-friendly landing page for a campsite, featuring an intuitive interface and modular components",
+    link: "https://travel-app-ashen-xi.vercel.app/",
+  },
+  {
+    iconUrl: yokon,
     theme: "btn-back-black",
     name: "YOKON",
     description:
       "Developed a responsive landing page for a food product with a seamless UI and reusable components.",
     link: "https://yokon.vercel.app/",
+  },
+  {
+    iconUrl: slider,
+    theme: "btn-back-black",
+    name: "Slider",
+    description: "Moder slider using html, css and js",
+    link: "https://dilshadkt.github.io/slider/",
+  },
+  {
+    iconUrl: paralax,
+    theme: "btn-back-green",
+    name: "Paralax",
+    description: "Moder slider using html, css and js",
+    link: "https://dilshadkt.github.io/parallax/",
   },
 ];
