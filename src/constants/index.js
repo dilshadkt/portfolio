@@ -12,6 +12,7 @@ import {
   realestate,
   slider,
   paralax,
+  ProjectManagement,
 } from "../assets/images";
 import {
   car,
@@ -226,6 +227,14 @@ export const projects = [
     description:
       "Developed a web application for image restoration, autofill, object and background removal, and object recoloring using Cloudinary AI.",
     link: "https://ai-saas-eight-coral.vercel.app/",
+  },
+  {
+    iconUrl: ProjectManagement,
+    theme: "btn-back-blue",
+    name: "Project Management ",
+    description:
+      "Developed a web application for Time mangement and manage tasks , using next js , express js , monogodb . gemni ai for task creation",
+    link: "https://project-mangement-eta.vercel.app/",
   },
   {
     iconUrl: airbn,

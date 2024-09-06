@@ -11,8 +11,10 @@ import origa from "./origa.png";
 import realestate from "./real-estate.png";
 import slider from "./slider.png";
 import paralax from "./paralax.png";
+import ProjectManagement from "./project.png";
 
 export {
+  ProjectManagement,
   airbn,
   camp,
   picai,
