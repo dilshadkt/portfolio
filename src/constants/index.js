@@ -13,6 +13,7 @@ import {
   slider,
   paralax,
   ProjectManagement,
+  Kronos,
 } from "../assets/images";
 import {
   car,
@@ -221,12 +222,12 @@ export const socialLinks = [
 
 export const projects = [
   {
-    iconUrl: picai,
-    theme: "btn-back-blue",
-    name: "Pic AI",
+    iconUrl: Kronos,
+    theme: "btn-back-black",
+    name: "Kronos Limited ",
     description:
-      "Developed a web application for image restoration, autofill, object and background removal, and object recoloring using Cloudinary AI.",
-    link: "https://ai-saas-eight-coral.vercel.app/",
+      "Developed a custom web app using Next.js, Express.js, and MongoDB (hosted on AWS EC2) to collect leads, manage sales workflows, and deliver courses",
+    link: "https://kronoslimited.com",
   },
   {
     iconUrl: ProjectManagement,
@@ -238,12 +239,21 @@ export const projects = [
   },
   {
     iconUrl: airbn,
+    theme: "btn-back-blue",
+    name: "Digitable",
+    description:
+      "Build a full-stack application, an Airbnb clone, facilitating seamless property transactions. Users can effortlessly book accommodations or rent out their properties.",
+    link: "https://airbnb-clone-six-rust.vercel.app/",
+  },
+  {
+    iconUrl: airbn,
     theme: "btn-back-red",
     name: "Airbnb - clone",
     description:
       "Build a full-stack application, an Airbnb clone, facilitating seamless property transactions. Users can effortlessly book accommodations or rent out their properties.",
     link: "https://airbnb-clone-six-rust.vercel.app/",
   },
+
   {
     iconUrl: zig,
     theme: "btn-back-red",
@@ -275,6 +285,14 @@ export const projects = [
     description:
       "Craft a dynamic full-stack e-commerce application focused on footwear. Users can easily browse and purchase shoes, Admins can effortlessly manage products for streamlined operations,",
     link: "https://plashoeclub.netlify.app/",
+  },
+  {
+    iconUrl: picai,
+    theme: "btn-back-blue",
+    name: "Pic AI",
+    description:
+      "Developed a web application for image restoration, autofill, object and background removal, and object recoloring using Cloudinary AI.",
+    link: "https://ai-saas-eight-coral.vercel.app/",
   },
   {
     iconUrl: omnify,

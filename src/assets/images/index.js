@@ -12,6 +12,7 @@ import realestate from "./real-estate.png";
 import slider from "./slider.png";
 import paralax from "./paralax.png";
 import ProjectManagement from "./project.png";
+import Kronos from "./kronos.png";
 
 export {
   ProjectManagement,
@@ -28,4 +29,5 @@ export {
   realestate,
   slider,
   paralax,
+  Kronos,
 };
