@@ -14,6 +14,8 @@ import {
   paralax,
   ProjectManagement,
   Kronos,
+  Digitable,
+  Crm,
 } from "../assets/images";
 import {
   car,
@@ -237,13 +239,22 @@ export const projects = [
       "Developed a web application for Time mangement and manage tasks , using next js , express js , monogodb . gemni ai for task creation",
     link: "https://project-mangement-eta.vercel.app/",
   },
+
   {
-    iconUrl: airbn,
+    iconUrl: Digitable,
     theme: "btn-back-blue",
     name: "Digitable",
     description:
-      "Build a full-stack application, an Airbnb clone, facilitating seamless property transactions. Users can effortlessly book accommodations or rent out their properties.",
-    link: "https://airbnb-clone-six-rust.vercel.app/",
+      "Built a website to showcase the client’s work and services, using Storyblok (headless CMS) for dynamic content management.",
+    link: "https://digitable-demo.vercel.app",
+  },
+  {
+    iconUrl: Crm,
+    theme: "btn-back-blue",
+    name: "CRM - Progressing...",
+    description:
+      "Developed a CRM web application tailored for digital marketing agencies to track employees and projects, using React.js, Express.js, MongoDB and AWS EC2.",
+    link: "https://zigzag-crm.vercel.app/",
   },
   {
     iconUrl: airbn,
@@ -261,6 +272,14 @@ export const projects = [
     description:
       "Develop a sleek full-stack application for a Digital Marketing Agency to effortlessly showcase their work and maintain a vibrant blog.",
     link: "https://zigzagdigitalsolutions.com/",
+  },
+  {
+    iconUrl: omnify,
+    theme: "btn-back-blue",
+    name: "Omnify",
+    description:
+      "Develop a user-friendly dashboard featuring seamless filter options ,",
+    link: "https://omnify-ten.vercel.app/",
   },
   {
     iconUrl: vidyanagar,
@@ -294,14 +313,7 @@ export const projects = [
       "Developed a web application for image restoration, autofill, object and background removal, and object recoloring using Cloudinary AI.",
     link: "https://ai-saas-eight-coral.vercel.app/",
   },
-  {
-    iconUrl: omnify,
-    theme: "btn-back-blue",
-    name: "Omnify",
-    description:
-      "Develop a user-friendly dashboard featuring seamless filter options ,",
-    link: "https://omnify-ten.vercel.app/",
-  },
+
   {
     iconUrl: progbiz,
     theme: "btn-back-blue",
